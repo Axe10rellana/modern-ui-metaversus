@@ -22,6 +22,13 @@ Código base de la interfaz Metaversus Hecha en React.js, Framer Motion y Tailwi
 
 ---
 
+## Hecho con
+
+- [React](https://react.dev/) - JS library
+- [Tailwind CSS](https://tailwindcss.com/) - For Styles
+
+---
+
 ## Comandos
 
 - npm i
@@ -46,3 +53,9 @@ Código base de la interfaz Metaversus Hecha en React.js, Framer Motion y Tailwi
 - Pretier
 - Pretier Plugin Tailwind CSS
 - Tailwind CSS
+
+---
+
+## Autor
+
+- Website - [Axe10rellana](https://axe10rellana.github.io/portafolio/portafolio/)
