@@ -1,12 +1,21 @@
 // Components
-import { Footer, Navbar } from './components';
+import { Footer, Navbar } from "./components";
 
 // Sections
-import { About, Explore, Feedback, GetStarted, Hero, Insights, WhatsNew, World } from './sections';
+import {
+  About,
+  Explore,
+  Feedback,
+  GetStarted,
+  Hero,
+  Insights,
+  WhatsNew,
+  World,
+} from "./sections";
 
 const App = () => {
   return (
-    <div className="bg-primary-black overflow-hidden">
+    <div className="overflow-hidden bg-primary-black">
       <Navbar />
       <Hero />
       <div className="relative">

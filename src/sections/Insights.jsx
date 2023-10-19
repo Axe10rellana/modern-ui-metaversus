@@ -1,22 +1,22 @@
-'use client';
+"use client";
 
 // Framer motion
-import { motion } from 'framer-motion';
+import { motion } from "framer-motion";
 
 // Styles
-import styles from '../styles';
+import styles from "../styles";
 
 // Utils
-import { staggerContainer } from '../utils/motion';
+import { staggerContainer } from "../utils/motion";
 
 // Components
-import { InsightCard, TitleText, TypingText } from '../components';
+import { InsightCard, TitleText, TypingText } from "../components";
 
 // Constants
-import { insights } from '../constants';
+import { insights } from "../constants";
 
 const Insights = () => (
-  <section className={`${styles.paddings} relative z-10`}>
+  <section id="insights" className={`${styles.paddings} relative z-10`}>
     <motion.div
       variants={staggerContainer}
       initial="hidden"
@@ -25,7 +25,10 @@ const Insights = () => (
       className={`${styles.innerWidth} mx-auto flex flex-col`}
     >
       <TypingText title="| Insight" textStyles="text-center" />
-      <TitleText title={<>Insight about metaverse</>} textStyles="text-center" />
+      <TitleText
+        title={<>Insight about metaverse</>}
+        textStyles="text-center"
+      />
       <div className="mt-[50px] flex flex-col gap-[30px]">
         {insights.map((item, index) => (
           <InsightCard key={`insight-${index}`} {...item} index={index + 1} />
