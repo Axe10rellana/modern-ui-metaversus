@@ -8,7 +8,7 @@ Código base de la interfaz Metaversus Hecha en React.js, Framer Motion y Tailwi
 
 ## Vista En Versión Desktop
 
-![Vista_En_Versión_Desktop](src/assets/design/desktop-preview.jpg)
+![Vista_En_Versión_Desktop](src/assets/design/desktop-design.jpg)
 
 ## Vista En Versión Mobile
 

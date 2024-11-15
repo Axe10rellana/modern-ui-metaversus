@@ -1,5 +1,6 @@
 {
   "name": "metaversus",
+  "description": "Código base de la interfaz Metaversus Hecha en React.js, Framer Motion y Tailwind CSS.",
   "private": true,
   "version": "1.0.0",
   "homepage": "./",
